@@ -1,0 +1,15 @@
+{application, cth_retry,
+ [{description, "Common Test hooks to retry the last failing cases"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, ["Fred Hebert"]},
+  {licenses, ["BSD"]},
+  {links, [{"Github", "https://github.com/ferd/cth_retry"}]}
+ ]}.
